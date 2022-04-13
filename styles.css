@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.navbar {
+  justify-content: space-evenly;
+  padding: 5px;
+}
+a {
+  color: #6d7c75;
+  text-decoration: none;
+}
+.About {
+  margin-right: 10px;
+  position: relative;
+  top: 15px;
+}
+.store {
+  position: relative;
+  top: 15px;
+}
+.gmail {
+  position: relative;
+  top: 15px;
+  margin-right: 15px;
+}
+.images {
+  position: relative;
+  top: 15px;
+  margin-right: 15px;
+}
+.app-icon {
+  float: right;
+  right: 70px;
+  margin-right: 15px;
+}
+
+.profile {
+  display: flex;
+  float: right;
+}
+nav > div:nth-child(3) {
+  margin-left: auto;
+}
